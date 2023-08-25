@@ -1,7 +1,7 @@
 # cmake super build mode, root dir
 
 cmake_minimum_required (VERSION 3.20 FATAL_ERROR)
-project ("AOTMAAEETZ" LANGUAGES CXX)
+project ("NOBIITR" LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_EXTENSIONS OFF)
@@ -34,7 +34,7 @@ include(ExternalProject)
 
 ExternalProject_Add(${EX_NAME}
 	DEPENDS
-		
+		# boost_external
 	SOURCE_DIR
 		${CMAKE_CURRENT_LIST_DIR}/src
 	CMAKE_ARGS
