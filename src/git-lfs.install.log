@@ -91,4 +91,14 @@ nothing added to commit but untracked files present (use "git add" to track)
 root@SZ-wengyongchun:~/Documents/tmp/n.o.b.i.i.t.r# git add -A
 root@SZ-wengyongchun:~/Documents/tmp/n.o.b.i.i.t.r# git lfs ls-files
 01618d6f09 * src/log.tar.gz
+root@SZ-wengyongchun:~/Documents/tmp/n.o.b.i.i.t.r# git status
+On branch latest
+Your branch is up to date with 'origin/latest'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitattributes
+        new file:   src/git-lfs.install.log
+        new file:   src/log.tar.gz
+
 root@SZ-wengyongchun:~/Documents/tmp/n.o.b.i.i.t.r#
